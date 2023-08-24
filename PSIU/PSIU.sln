@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSIUWeb", "PSIUWeb\PSIUWeb.csproj", "{989AD2E6-732A-46EF-9639-569A9BAB814D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{989AD2E6-732A-46EF-9639-569A9BAB814D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989AD2E6-732A-46EF-9639-569A9BAB814D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989AD2E6-732A-46EF-9639-569A9BAB814D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989AD2E6-732A-46EF-9639-569A9BAB814D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FC1A3BF-6E5F-4B32-BE5F-A9E9B6A9B78A}
+	EndGlobalSection
+EndGlobal
