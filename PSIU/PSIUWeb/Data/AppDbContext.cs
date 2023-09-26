@@ -9,6 +9,6 @@ namespace PSIUWeb.Data
     {
         public AppDbContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<Patient>? Pacients { get; set; }
+        public DbSet<Patient>? Patients { get; set; }
     }   
 }
