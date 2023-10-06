@@ -17,6 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 //Scoped Services
 //Serviços que são registrados para serem criados a cada requisição HTTP
 builder.Services.AddScoped<IPatientRepository, EfPatientRepository>();
+builder.Services.AddScoped<IPsychologistRepository, EfPsychologistRepository>();
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(
     options => 

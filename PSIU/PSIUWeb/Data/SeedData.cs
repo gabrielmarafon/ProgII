@@ -38,11 +38,34 @@ namespace PSIUWeb.Data
                         Height = 175,
                         Weight = 90
                     }
+
                 );
 
                 context.SaveChanges();
             }
-        }
 
+            if (!context.Psychologists.Any())
+            {
+                context.Psychologists.AddRange(
+                    new Psychologist
+                    {
+                        Name = "Jefe",
+                        CRP = "12345",
+                        Specialty = "Urologista",
+
+                    },
+                    new Psychologist
+                    {
+                        Name = "Vitão",
+                        CRP = "54321",
+                        Specialty = "Ginecologista",
+                    }
+
+                );
+
+                context.SaveChanges();
+            }
+
+        }
     }
 }

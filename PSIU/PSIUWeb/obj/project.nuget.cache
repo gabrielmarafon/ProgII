@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e3scf5EBalEuLsXzjOWUyD8unPcHi7Lcpe0BBbOFETucqkMPyeTLOFaJDPDCiHtYS7qsDUrgWckHxApuwVEhtw==",
+  "dgSpecHash": "Gk1tmXyxRrTrOU/7/S4TZkCS7/+ztR06dWv900AVSvikusW0QjF+z7vCGN9cWUAKVpfyWbhAQpVAXxHxcqaGvA==",
   "success": true,
   "projectFilePath": "C:\\Faculdade\\4º Semestre\\Prog II\\Projetos\\PSIU\\PSIUWeb\\PSIUWeb.csproj",
   "expectedPackageFiles": [
@@ -50,7 +50,11 @@
     "C:\\Users\\gabri\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\gabri\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\gabri\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }
