@@ -36,7 +36,6 @@ namespace PSIUWeb.Data.Ef
             context.Patients?.Remove(p);
             context.SaveChanges();
             return p;
-
          }
 
         public Patient? GetPatientById(int id)
