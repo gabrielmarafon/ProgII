@@ -18,6 +18,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 //Serviços que são registrados para serem criados a cada requisição HTTP
 builder.Services.AddScoped<IPatientRepository, EfPatientRepository>();
 builder.Services.AddScoped<IPsychologistRepository, EfPsychologistRepository>();
+builder.Services.AddScoped<ICategoryRepository, EfCategoryRepository>();
+builder.Services.AddScoped<IContentRepository, EfContentRepository>();
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(
     options => 
